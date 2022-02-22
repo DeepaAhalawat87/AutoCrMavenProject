@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[User is successfully logged in and redirected to Home Page Autocrib :: AutoCrib :: Home]]>
+    </line>
+    <line>
+      <![CDATA[clicked Reports]]>
+    </line>
+    <line>
+      <![CDATA[Item deleted]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74375" started-at="2022-02-20T11:50:28 PST" finished-at="2022-02-20T11:51:43 PST">
+    <groups>
+      <group name="Item">
+        <method signature="InventoryItemPageTest.createAnExpandableItem()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="createAnExpandableItem" class="com.autocrib.testCases.InventoryItemPageTest"/>
+        <method signature="InventoryItemPageTest.editItem()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="editItem" class="com.autocrib.testCases.InventoryItemPageTest"/>
+      </group> <!-- Item -->
+      <group name="Login">
+        <method signature="LoginPageTest.testLoginPage()[pri:0, instance:com.autocrib.testCases.LoginPageTest@3eb738bb]" name="testLoginPage" class="com.autocrib.testCases.LoginPageTest"/>
+      </group> <!-- Login -->
+      <group name="delete">
+        <method signature="InventoryItemPageTest.deleteAnItem()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="deleteAnItem" class="com.autocrib.testCases.InventoryItemPageTest"/>
+      </group> <!-- delete -->
+    </groups>
+    <test name="Test" duration-ms="74375" started-at="2022-02-20T11:50:28 PST" finished-at="2022-02-20T11:51:43 PST">
+      <class name="com.autocrib.testCases.LoginPageTest">
+        <test-method status="PASS" signature="display()[pri:0, instance:com.autocrib.testCases.LoginPageTest@3eb738bb]" name="display" is-config="true" duration-ms="0" started-at="2022-02-20T11:50:28 PST" finished-at="2022-02-20T11:50:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.autocrib.testCases.LoginPageTest@3eb738bb]" name="launchBrowser" is-config="true" duration-ms="1717" started-at="2022-02-20T11:50:28 PST" finished-at="2022-02-20T11:50:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.autocrib.testCases.LoginPageTest@3eb738bb]" name="launchUrl" is-config="true" duration-ms="1515" started-at="2022-02-20T11:50:30 PST" finished-at="2022-02-20T11:50:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.autocrib.testCases.LoginPageTest@3eb738bb]" name="testLoginPage" duration-ms="12634" started-at="2022-02-20T11:50:32 PST" finished-at="2022-02-20T11:50:44 PST">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully logged in and redirected to Home Page Autocrib :: AutoCrib :: Home]]>
+            </line>
+            <line>
+              <![CDATA[clicked Reports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autocrib.testCases.LoginPageTest@3eb738bb]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-20T11:50:44 PST" finished-at="2022-02-20T11:50:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.autocrib.testCases.LoginPageTest -->
+      <class name="com.autocrib.testCases.InventoryItemPageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="launchBrowser" is-config="true" duration-ms="1208" started-at="2022-02-20T11:50:44 PST" finished-at="2022-02-20T11:50:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="launchUrl" is-config="true" duration-ms="781" started-at="2022-02-20T11:50:45 PST" finished-at="2022-02-20T11:50:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="createAnExpandableItem()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="createAnExpandableItem" duration-ms="23134" started-at="2022-02-20T11:50:46 PST" finished-at="2022-02-20T11:51:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnExpandableItem -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="launchUrl" is-config="true" duration-ms="611" started-at="2022-02-20T11:51:09 PST" finished-at="2022-02-20T11:51:10 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="deleteAnItem()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="deleteAnItem" duration-ms="19071" started-at="2022-02-20T11:51:10 PST" finished-at="2022-02-20T11:51:29 PST">
+          <reporter-output>
+            <line>
+              <![CDATA[Item deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAnItem -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="launchUrl" is-config="true" duration-ms="260" started-at="2022-02-20T11:51:29 PST" finished-at="2022-02-20T11:51:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="editItem()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="editItem" duration-ms="13405" started-at="2022-02-20T11:51:29 PST" finished-at="2022-02-20T11:51:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autocrib.testCases.InventoryItemPageTest@5bda8e08]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-20T11:51:43 PST" finished-at="2022-02-20T11:51:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.autocrib.testCases.InventoryItemPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

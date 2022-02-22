@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[clicked Reports]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25912" started-at="2022-02-21T16:59:48 PST" finished-at="2022-02-21T17:00:14 PST">
+    <groups>
+      <group name="Login">
+        <method signature="LoginPageTest.testLoginPage()[pri:0, instance:com.autocrib.testCases.LoginPageTest@1dac5ef]" name="testLoginPage" class="com.autocrib.testCases.LoginPageTest"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Test" duration-ms="25912" started-at="2022-02-21T16:59:48 PST" finished-at="2022-02-21T17:00:14 PST">
+      <class name="com.autocrib.testCases.LoginPageTest">
+        <test-method status="PASS" signature="display()[pri:0, instance:com.autocrib.testCases.LoginPageTest@1dac5ef]" name="display" is-config="true" duration-ms="0" started-at="2022-02-21T16:59:48 PST" finished-at="2022-02-21T16:59:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.autocrib.testCases.LoginPageTest@1dac5ef]" name="launchBrowser" is-config="true" duration-ms="2660" started-at="2022-02-21T16:59:48 PST" finished-at="2022-02-21T16:59:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.autocrib.testCases.LoginPageTest@1dac5ef]" name="launchUrl" is-config="true" duration-ms="6401" started-at="2022-02-21T16:59:51 PST" finished-at="2022-02-21T16:59:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.autocrib.testCases.LoginPageTest@1dac5ef]" name="testLoginPage" duration-ms="16797" started-at="2022-02-21T16:59:57 PST" finished-at="2022-02-21T17:00:14 PST">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked Reports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autocrib.testCases.LoginPageTest@1dac5ef]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-21T17:00:14 PST" finished-at="2022-02-21T17:00:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.autocrib.testCases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
